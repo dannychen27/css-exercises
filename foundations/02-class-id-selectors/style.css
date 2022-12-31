@@ -4,7 +4,7 @@ All odd numbered elements:
 and a list of fonts containing Verdana and DejaVu Sans
 with sans-serif as a fallback
 **/
-p {
+.odd-element {
     background-color: lightpink;
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
@@ -31,7 +31,7 @@ add a font size of 24px
 The fourth element:
 - a light green background, a font size of 24px, and bold
 **/
-.fourth-element {
+#fourth-element {
     background-color: lightgreen;
     font-size: 24px;
     font-weight: bold;
