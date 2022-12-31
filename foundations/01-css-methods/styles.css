@@ -2,11 +2,9 @@
 32px, center aligned, and bold */
 
 div {
-    background: red;
-    /* SOLUTION: background-color: red; */
+    background-color: red;
     color: white;
     font-size: 32px;
-    align-content: center;
-    /* SOLUTION: text-align: center; */
+    text-align: center;
     font-weight: bold;
 }
