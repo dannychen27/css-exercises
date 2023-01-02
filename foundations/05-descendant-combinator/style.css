@@ -17,3 +17,20 @@ div > p {
 /*    font-size: 20px;*/
 /*    text-align: center;*/
 /*}*/
+
+/** Other approaches:
+1. div > p (my approach)
+2. div p
+3. div .text
+4. .container > p
+5. .container p
+6. .container .text
+
+References:
+
+Specificity:
+https://www.w3schools.com/css/css_specificity.asp
+
+Selectors:
+https://www.w3schools.com/cssref/css_selectors.php
+**/
