@@ -24,7 +24,8 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 30px;  /* actual: 32px */
-  margin-left: 333px;  /* actual: auto, which does 334px -- this right justifies the div "three" */
+  margin-left: auto;
+  /* margin-left: 333px; /* actual: auto, which does 334px -- this right justifies the div "three" *!*/
   /* similarly, margin-right: auto -- which does 333px -- left justifies the div "three" */
   /* actual: */
   /* 1. div three should be right aligned */
