@@ -7,15 +7,15 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 35px;  /* actual: 32px */
+  margin: 10px;   /* actual: 12px */
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 50px;  /* actual: 48px */
 }
 
 .three {
@@ -23,6 +23,11 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 30px;  /* actual: 32px */
+  margin-left: auto;
+  /* margin-left: 333px; /* actual: auto, which does 334px -- this right justifies the div "three" *!*/
+  /* similarly, margin-right: auto -- which does 333px -- left justifies the div "three" */
+  /* actual: */
+  /* 1. div three should be right aligned */
+  /* 2. achieve align using margin (not float, flexbox, etc.) */
 }

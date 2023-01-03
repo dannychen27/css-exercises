@@ -1,0 +1,36 @@
+/* Only the p elements that are descendants of
+the div element should have a yellow background,
+red text, a font size of 20px, and center aligned. */
+
+/* Approach 1: Using descendant selectors. (>) */
+div > p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Approach 2: Using descendant selectors. (empty space) */
+/*div p {*/
+/*    background-color: yellow;*/
+/*    color: red;*/
+/*    font-size: 20px;*/
+/*    text-align: center;*/
+/*}*/
+
+/** Other approaches:
+1. div > p (my approach)
+2. div p
+3. div .text
+4. .container > p
+5. .container p
+6. .container .text
+
+References:
+
+Specificity:
+https://www.w3schools.com/css/css_specificity.asp
+
+Selectors:
+https://www.w3schools.com/cssref/css_selectors.php
+**/
